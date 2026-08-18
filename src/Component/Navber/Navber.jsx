@@ -4,7 +4,7 @@ const Navber = () => {
   const [click,isClick]=useState(false)
   const navLink=["Home","Program","About Us","Campus","Testimonials"];
   return (
-    <nav className="relative w-full h-15  flex justify-between items-center md:px-15">
+    <nav className="fixed w-full h-15  flex justify-between items-center md:px-15">
       
       <div className="flex items-center gap-2 text-white justify-between w-full">
         <div className="px-2">
