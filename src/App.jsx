@@ -1,3 +1,4 @@
+import { AboutUs } from "./Component/About us/AboutUs"
 import { Home } from "./Component/Home/Home"
 import { Program } from "./Component/Program/Program"
 
@@ -7,6 +8,10 @@ function App() {
     <div className="min-h-screen  ">
       <Home/>
       <Program/>
+      <div className="flex justify-center">
+         <AboutUs/>
+      </div>
+     
     </div>
   )
 }
